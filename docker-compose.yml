@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+    summer2020:
+        build: .
+        ports:
+            - "32767:22"
+        volumes:
+            - ./data:/srv/data

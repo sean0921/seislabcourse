@@ -1,0 +1,6 @@
+source/sac-*
+!source/README
+config/*
+!config/README
+data/*
+!data/README
